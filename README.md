@@ -26,6 +26,10 @@
 为确保App启动后即启动X5内核，需要在项目的``MainActivity``的``onCreate``方法内，增加以下代码：
 
 ```java
+
+import com.tencent.smtt.sdk.QbSdk;
+
+
 QbSdk.initX5Environment(this, null);
 ```
 
@@ -47,9 +51,9 @@ QbSdk.initX5Environment(this, null);
 
 ## 环境
 
-### 当前版本
+### X5当前版本
 
-X5：tbs_sdk_thirdapp_v4.3.0.1148_43697_sharewithdownloadwithfile_withoutGame_obfs_20190805_175505.jar
+platforms/android/libs/tbs_sdk_thirdapp_v4.3.0.151_44051_sharewithdownloadwithfile_withoutGame_obfs_20210524_174029.jar
 
 ## 内核替换
 
